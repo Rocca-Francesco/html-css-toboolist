@@ -38,7 +38,10 @@ body {
     width: 800px;
     margin: 0 auto;
     background-color: white;
-
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    display: inline-block;
 }
 
 #task {
@@ -49,6 +52,7 @@ body {
     background-color: #47adf1;
     text-align: center;
     border-radius: 5px;
+    margin: 15px;
 
 }
 
@@ -118,4 +122,10 @@ border-color: red;
 }
 summary {
     font-weight: bold;
+    margin-top: 30px;
+}
+
+details {
+    line-height: 30px;
+    margin: 15px;
 }
