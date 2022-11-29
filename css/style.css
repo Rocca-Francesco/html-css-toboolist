@@ -40,6 +40,7 @@ body {
 }
 
 #task {
+    color: white;
     display: inline-block;
     width: 70px;
     height: 20px;
@@ -50,15 +51,16 @@ body {
 }
 
 #section {
+    color: grey;
     display: inline-block;
     width: 90px;
     height: 20px;
-    background-color: grey;
+    border-style: solid;
     text-align: center;
     border-radius: 5px;
 
 }
-
+/* cerchio tondi scritte */
 .cerchio {
     display: inline-block;
     width: 90px;
@@ -66,6 +68,24 @@ body {
     text-align: center;
     border-radius: 5px;
 
+}
+
+/* cerchio tondi check */
+.cerchio2 {
+    color: green;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: green;
+
+}
+
+.cerchio2.wrong{
+color: red;
+border-color: red;
 }
 
 /* colori tondi */
