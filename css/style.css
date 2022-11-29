@@ -25,6 +25,7 @@ h1 {
 header {
     padding: 10px;
     height: 80px;
+    background-color: white;
 }
 
 /* regole liste */
@@ -33,6 +34,7 @@ body {
 }
 
 .container {
+    margin: 200px;
     width: 800px;
     margin: 0 auto;
     background-color: white;
@@ -55,6 +57,7 @@ body {
     display: inline-block;
     width: 90px;
     height: 20px;
+    background-color: white;
     border-style: solid;
     text-align: center;
     border-radius: 5px;
@@ -62,6 +65,7 @@ body {
 }
 /* cerchio tondi scritte */
 .cerchio {
+    color: white;
     display: inline-block;
     width: 90px;
     height: 20px;
